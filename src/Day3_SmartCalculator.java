@@ -13,20 +13,16 @@ public class Day3_SmartCalculator {
         if (choice == 1){
             double total = num1 + num2;
             System.out.println("Result: " + total);
-        }
-        else if (choice == 2){
+        } else if (choice == 2){
            double result = num1 - num2;
             System.out.println("Result: " + result);
-        }
-        else if (choice == 3){
+        } else if (choice == 3){
            double result2 = num1 * num2;
             System.out.println("Result: " + result2);
-        }
-        else if (choice == 4){
+        } else if (choice == 4){
            double result3 = num1 / num2;
             System.out.println("Result: " + result3);
-        }
-        else {
+        } else {
             System.out.println("Invalid choice!");
         }
     }
